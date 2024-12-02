@@ -193,5 +193,35 @@ section{
     .icons{
         padding: 0 4%;
     }
+    .scroll{
+    
+        right: 4%;
     }
 }
+@media screen and (max-width: 1670px) {
+    :root{
+        --big-font:5.5rem;
+        --p-font: 15px;;
+    }
+}
+@media screen and (max-width: 1370px) {
+    .icons{
+        display: none;   
+    }
+    section{
+        padding: 0 4%;
+    }
+    
+}
+@media screen and (max-width: 1150px) {
+    :root{
+        --big-font: 4.6rem;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .btn{
+        padding: 10px 23px;
+    }
+}
+

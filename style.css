@@ -10,7 +10,7 @@
     --bg-color: #1e1e1e; /* Lighter than #0c0c0c */
     --text-color: #fff;
     --main-color: #ae8957;
-    --big-font: 28px;
+    --big-font: 6rem;
     --p-font: 16px;
 }
 
@@ -108,18 +108,20 @@ section{
 .hero-text h1{
     font-size: var(--big-font);
     font-weight: 900;
-    margin: 25px 0;
+    margin: 15px 0;
 }
 .hero-text h5{
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
 }
-.hero-text p {
+.hero-text p{
     width: 100%;
-    max-width: 100%;
-    line-height: 1.6;
-    margin-bottom: 45px;
+    max-width: 620px;
+    font-size: var(--p-font);
+    line-height: 32px;
+    color: var(--text-color);
+    margin-bottom: 40px;
 }
 .hero-img {
     max-width: 100%;
